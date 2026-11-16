@@ -4,7 +4,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Miheer Nayak — B.Tech CSE, Karnavati University</title>
+<title>Miheer Nayak — Frontend &amp; Backend Developer · B.Tech CSE</title>
 <meta name="description" content="Personal portfolio of Miheer Nayak, first-year B.Tech Computer Science student at Karnavati University. Frontend and backend, C, JavaScript, AI fundamentals, and fast bowling.">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23070A10'/%3E%3Ctext x='32' y='43' font-family='Georgia,serif' font-size='28' fill='%232FE3C0' text-anchor='middle'%3EMN%3C/text%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -141,6 +141,11 @@ h1 em{font-style:italic;color:var(--teal)}
   font-family:var(--mono);font-size:clamp(11px,1.3vw,13px);letter-spacing:.16em;
   text-transform:uppercase;color:var(--muted);margin-bottom:26px;
 }
+.hero-role{
+  font-family:var(--serif);font-style:italic;font-size:clamp(1.15rem,2.1vw,1.65rem);
+  color:rgba(237,234,227,.92);letter-spacing:.005em;line-height:1.2;margin-bottom:14px;
+}
+.hero-role span{color:var(--teal)}
 .hero-copy{max-width:52ch;color:#C7CBD3;font-size:clamp(15px,1.7vw,17.5px);margin-bottom:34px}
 .hero-copy strong{color:var(--paper);font-weight:500}
 .btns{display:flex;flex-wrap:wrap;gap:12px;align-items:center}
@@ -572,6 +577,7 @@ footer .ai{color:rgba(47,227,192,.75)}
     <div class="hero-text">
       <div class="hero-status rv"><span class="pulse"></span> Open to internships · 2026</div>
       <h1 class="rv">Miheer<br><em>Nayak</em></h1>
+      <p class="hero-role rv">Frontend &amp; backend <span>developer</span></p>
       <p class="hero-sub rv" style="margin-bottom:10px">B.Tech CSE · Karnavati University · First Year</p>
       <p class="hero-sub rv" style="color:#9FA8B6;letter-spacing:.11em">Sem 1 — PPS · FAI · Maths · IWP · EDG · DTI · PDC</p>
       <p class="hero-copy rv">
@@ -660,7 +666,7 @@ footer .ai{color:rgba(47,227,192,.75)}
     </div>
 
     <div class="mock rv">
-      <div class="mock-bar"><i></i><i></i><i></i><div class="mock-url">miheernayak.github.io</div></div>
+      <div class="mock-bar"><i></i><i></i><i></i><div class="mock-url">miheernayak17.github.io</div></div>
       <div class="mock-body">
         <div class="m-top">
           <div>
@@ -692,11 +698,12 @@ footer .ai{color:rgba(47,227,192,.75)}
   <div class="about-grid">
     <div class="prose rv">
       <p>
-        I'm Miheer Nayak. I finished class 10 under CBSE with 84.2% and class 12 in
-        the PCM stream under RBSE with 86.6%, then sat JEE Main and landed in the 90th
-        percentile. My JEE Advanced score wasn't what I hoped for. I'm mentioning it anyway,
-        because that result taught me more about how I handle a setback than any of my good
-        marks did.
+        I'm Miheer Nayak — a frontend and backend developer in training, currently in my first
+        semester of B.Tech Computer Science at Karnavati University. I finished class 10 under
+        CBSE with 84.2% and class 12 in the PCM stream under RBSE with 86.6%, then sat JEE Main
+        and landed in the 90th percentile. My JEE Advanced score wasn't what I hoped for. I'm
+        mentioning it anyway, because that result taught me more about how I handle a setback
+        than any of my good marks did.
       </p>
       <p>
         I'm now in my first semester of B.Tech Computer Science at Karnavati University.
@@ -734,8 +741,9 @@ footer .ai{color:rgba(47,227,192,.75)}
         <span class="k">Currently</span>
         <h3>What I'm actually doing this month</h3>
         <p>
-          Strengthening C fundamentals, building small JavaScript projects to get comfortable
-          with the DOM, and reading around FAI one chapter at a time.
+          Building the frontend of things I can actually use — small JavaScript projects to get
+          comfortable with the DOM — and reading the backend side slowly: how data moves, why an
+          API exists, what a server actually does. Plus one FAI chapter at a time.
           Everything I build gets pushed to GitHub — including the ugly early versions.
         </p>
       </div>
@@ -1243,6 +1251,16 @@ footer .ai{color:rgba(47,227,192,.75)}
       </p>
     </div>
     <div class="qa rv">
+      <h3>Frontend or backend?</h3>
+      <p>
+        Both, on purpose. Frontend is where I get to see the result instantly — this site is the
+        proof. Backend is where the logic actually lives, and it's the part I understand least
+        right now, which is exactly why I'm not dropping it. I'd say I'm the stronger frontend
+        developer today because I've shipped more of it;
+        <em>the cricket game will need both, which is the point.</em>
+      </p>
+    </div>
+    <div class="qa rv">
       <h3>What would you want from an internship?</h3>
       <p>
         Something small and real, an honest review when I get it wrong, and a team that explains
@@ -1426,7 +1444,7 @@ footer .ai{color:rgba(47,227,192,.75)}
       <h3>This website</h3>
       <p>A responsive personal portfolio built from scratch in a single HTML file — 11 sections,
       custom design system, scroll animations, mobile navigation.</p>
-      <div class="go">You're on it <b>→</b></div>
+      <div class="go"><a href="https://miheernayak17.github.io" target="_blank" rel="noopener" style="color:var(--teal)">miheernayak17.github.io</a> <b>→</b></div>
     </div>
     <div class="sub rv">
       <span class="sk">Part 2 · Documentation</span>
@@ -1447,7 +1465,7 @@ footer .ai{color:rgba(47,227,192,.75)}
       <h3>Code on GitHub</h3>
       <p>Full source, version history and the commit trail from first draft to final version.
       A teacher can see the process, not just the result.</p>
-      <div class="go"><span class="todo">Add repo link</span> <b>→</b></div>
+      <div class="go"><a href="https://github.com/miheernayak17/miheernayak17.github.io" target="_blank" rel="noopener" style="color:var(--teal)">github.com/miheernayak17</a> <b>→</b></div>
     </div>
   </div>
 </section>
@@ -1493,7 +1511,7 @@ footer .ai{color:rgba(47,227,192,.75)}
   <div class="ai">Built with AI assistance · Mini Project 2 · 2026</div>
 </footer>
 
-<div id="draft" onclick="this.remove()">Draft · <b>9 facts</b> still need your input · tap to hide</div>
+<div id="draft" onclick="this.remove()">Draft · <b>7 facts</b> still need your input · tap to hide</div>
 
 <button id="top" aria-label="Back to top" onclick="window.scrollTo({top:0,behavior:'smooth'})">
   <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19V5M6 11l6-6 6 6"/></svg>
